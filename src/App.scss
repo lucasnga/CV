@@ -1,0 +1,176 @@
+.App {
+  background: white;
+  margin: 3em 4em;
+  border-radius: 10px;
+
+  .headSection {
+    .header {
+      .nameRole {
+        .name {
+          h1 {
+            font-size: 2rem;
+            font-weight: bold;
+          }
+        }
+        .possession {
+          align-self: center;
+          h4 {
+            font-size: 1.3rem;
+            margin: 0;
+          }
+        }
+      }
+      .infoBox {
+        padding: 1em 0;
+        .info-row {
+          .info-row-head {
+            @extend .accent;
+            font-size: 14px;
+            text-transform: uppercase;
+          }
+          .info-row-value {
+            @extend .values;
+          }
+        }
+      }
+    }
+  }
+  .avatarBox {
+    .avatar {
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      text-align: center;
+      vertical-align: middle;
+      background: url('./public/image.jpg') -80px -25px no-repeat;
+      background-size: 300px auto;
+    }
+  }
+}
+.section {
+  padding: 1em 0;
+  border-top: 2px solid rgba(0, 0, 0, 0.06);
+  .section-head {
+    font-weight: 700;
+    font-size: 1.3rem;
+  }
+  .section-content {
+  }
+}
+
+.experience {
+  .experience-info {
+    .date {
+      @extend .values;
+    }
+    .place {
+      @extend .values;
+      @extend .accent;
+    }
+    .function {
+      font-size: 1.2rem;
+    }
+
+    .company {
+      color: #666;
+    }
+  }
+}
+
+.skill {
+  white-space: nowrap;
+  .skill-score {
+    @extend .accent;
+  }
+  .skill-name {
+    white-space: normal;
+    break-after: avoid;
+    @extend .values;
+  }
+}
+
+.education {
+  .education-info {
+    .date {
+      @extend .values;
+    }
+
+    .place {
+      @extend .values;
+      @extend .accent;
+    }
+
+    .company {
+    }
+
+    .function {
+    }
+  }
+}
+
+.activity {
+  .activity-info {
+    .date {
+      @extend .values;
+    }
+    .place {
+      @extend .values;
+      @extend .accent;
+    }
+    .function {
+    }
+    .company {
+    }
+  }
+}
+
+.course {
+  .course-info {
+    padding-bottom: 0.8rem;
+    .date {
+      @extend .values;
+    }
+
+    .function {
+      font-size: 1.2rem;
+    }
+
+    .company {
+      color: #666;
+    }
+  }
+}
+
+.reference {
+  .info {
+    .name {
+      font-size: 1.2rem;
+    }
+    .company {
+      color: #666;
+    }
+  }
+  .contact {
+    padding: 0.4rem calc(var(--bs-gutter-x) / 2);
+    .email {
+      font-size: 14px;
+    }
+    .phone {
+      font-size: 14px;
+    }
+  }
+}
+
+.accent {
+  color: rgb(74, 144, 226);
+}
+
+.values {
+  font-size: 16px;
+}
+
+.section-hobbies {
+  .hobbies-name {
+    @extend .values;
+  }
+}
