@@ -3,7 +3,7 @@ import React from 'react'
 export const HeadSection = (): JSX.Element => {
   return (
     <>
-      <div className="col-10 header">
+      <div className="col-9 header">
         <div className="row nameRole">
           <div className="col-6 name">
             <h1> Łukasz Anuszkiewicz</h1>
@@ -16,11 +16,10 @@ export const HeadSection = (): JSX.Element => {
           <div className="col-6">
             <div className="row info-row">
               <div className="col-4">
-                <span className={'info-row-head'}>Address</span>
+                <span className={'info-row-head'}>Living in</span>
               </div>
               <div className="col-6">
-                <div className={'info-row-value'}>Pawia 4</div>
-                <div className={'info-row-value'}>Warszawa, 00-164</div>
+                <div className={'info-row-value'}>Warsaw</div>
               </div>
             </div>
             <div className="row info-row">
@@ -68,7 +67,7 @@ export const HeadSection = (): JSX.Element => {
           </div>
         </div>
       </div>
-      <div className="col-2 avatarBox">
+      <div className="col-3 avatarBox">
         <div className="avatar" />
       </div>
     </>

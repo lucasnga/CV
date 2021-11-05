@@ -7,7 +7,6 @@
     -webkit-print-color-adjust: exact !important; /* Chrome, Safari */
   }
   body {
-    // zoom: 0.7 !important;
     margin: 0 !important;
     .fixed {
       position: fixed;
@@ -55,7 +54,7 @@ html {
         .info-row {
           .info-row-head {
             @extend .accent;
-            font-size: .77rem;
+            font-size: 0.77rem;
             text-transform: uppercase;
           }
           .info-row-value {
@@ -66,27 +65,28 @@ html {
     }
   }
   .avatarBox {
+    justify-content: flex-end !important;
+    display: flex;
     padding: 0;
     .avatar {
-      border: 1px solid rgb(74, 144, 226, .6);
-      $factor: .14;
-      $size: 110;
-      width: $size * 1px;
+      border: 1px solid rgb(74, 144, 226, 0.6);
+      $factor: 0.21;
+      $size: 142;
+      width: $size * 0.75 * 1px;
       height: $size * 1px;
       text-align: center;
       vertical-align: middle;
-      /* original */ 
+      /* original */
       $width: 2592;
       $height: 1944;
       $resized-width: $width * $factor;
       $resized-height: $height * $factor;
-      $offset-width: ($resized-width - $size)/ 2.13;
+      $offset-width: ($resized-width - $size)/ 1.94;
       $offset-height: ($resized-height - $size) / 3.6;
       background: url('./image.jpg') $offset-width * -1px $offset-height * -1px;
       background-size: $resized-width * 1px $resized-height * 1px;
       // old
       // background-size: 300px auto;
-
     }
   }
 }
@@ -124,10 +124,10 @@ html {
   white-space: nowrap;
   .skill-score {
     @extend .accent;
-    font-size: .85rem !important;
+    font-size: 0.85rem !important;
   }
   .skill-name {
-    font-size: .85rem !important;
+    font-size: 0.85rem !important;
     white-space: normal;
     break-after: avoid;
     @extend .values;
@@ -198,12 +198,20 @@ html {
   .contact {
     padding: 0 calc(var(--bs-gutter-x) / 2) 0.5rem;
     .email {
-      font-size: .9rem;
+      font-size: 0.9rem;
     }
     .phone {
-      font-size: .9rem;
+      font-size: 0.9rem;
     }
   }
+}
+.fixed {
+  padding: 0.125rem 0;
+}
+
+.rodo {
+  line-height: 1;
+  font-size: 0.85rem;
 }
 
 .accent {

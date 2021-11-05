@@ -7,8 +7,8 @@ export const RODO = (): JSX.Element => {
   return (
     <>
       <h3 className="section-head"></h3>
-      <div className="col" style={{ color: 'rgba(0,0,0, 0.4)' }}>
-        <h6>{content}</h6>
+      <div className="col px-1" style={{ color: 'rgba(0,0,0, 0.4)' }}>
+        <h6 className="rodo">{content}</h6>
       </div>
     </>
   )
