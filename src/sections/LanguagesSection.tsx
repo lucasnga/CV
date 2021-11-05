@@ -20,8 +20,7 @@ const signs = {
 export const LanguagesSection = (): JSX.Element => {
   return (
     <>
-      <h3 className={'section-head'}>LANGUAGES</h3>
-      <div className="col-4 section-content" />
+      <h3 className={'section-head col'}>LANGUAGES</h3>
       {languages.map(({ name, value }) => {
         const filled = Array(5).fill(signs.solid, 0, 5) as string[]
         filled.fill(signs.hollow, value, 5)
