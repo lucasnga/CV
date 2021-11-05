@@ -2,35 +2,31 @@ import React from 'react'
 import { Skill } from '../components/Skill/Skill'
 
 const skills = [
-  { value: 3, name: 'HTML5/CSS3/SCSS (RWD)' },
-  { value: 3, name: 'Javascript (ES6)' },
-  { value: 3, name: 'Browser Compatibility' },
+  { value: 3, name: 'HTML / CSS / SCSS (RWD / Compatibility)' },
+  { value: 3, name: 'Javascript / TypeScript' },
   { value: 3, name: 'Git' },
-  { value: 3, name: 'React/redux/react-router' },
-  { value: 2, name: 'VueJS/vuex/vue-router' },
-  { value: 4, name: 'REST API/axios/fetch' },
-  { value: 3, name: 'jQuery/Zepto' },
-  { value: 2, name: 'Jest/Enzyme' },
-  { value: 2, name: 'Cypress/StoryBook' },
-  { value: 2, name: 'Scrum/Kanban (Jira/Trello/Assembla)' },
-  { value: 4, name: 'Linux (Fedora, Debian, Gentoo)' },
-  { value: 3, name: 'Docker/Compose/Vagant' },
-  { value: 3, name: 'yarn/npm/parcel' },
-  { value: 2, name: 'Python/Bash/Go' },
-  { value: 3, name: 'MySQL/PostreSQL' },
-  { value: 2, name: 'MongoDB/Redis/Cassanda' },
-  { value: 4, name: 'babel/webpack/gulp' },
-  { value: 3, name: 'underscore/lodash/ramda' },
-  { value: 2, name: 'TypeScript' },
-  { value: 2, name: 'NestJS' },
+  { value: 3, name: 'React / redux / react-router' },
+  { value: 2, name: 'VueJS / vuex/ vue-router' },
+  { value: 4, name: 'REST API / axios / fetch' },
+  {
+    value: 2,
+    name: 'Testing (Jest / Enzyme, Cypress / StoryBook)'
+  },
+  { value: 2, name: 'Scrum / Kanban (Jira / Trello / Assembla)' },
+  { value: 4, name: 'Linux (Fedora / Debian / Gentoo)' },
+  { value: 3, name: 'Docker / Compose / Vagant' },
+  { value: 3, name: 'yarn / npm / parcel' },
+  { value: 2, name: 'Python / Bash (Scripting) ' },
+  { value: 3, name: 'MySQL / PostreSQL' },
+  { value: 2, name: 'MongoDB / Redis / Cassanda' },
+  { value: 4, name: 'babel / webpack / gulp' },
+  { value: 3, name: 'underscore / lodash / ramda' },
   { value: 1, name: 'Design patterns' },
-  { value: 2, name: 'Node JS' },
-  { value: 3, name: 'express/restify' },
-  { value: 4, name: 'Bootstrap/Material-UI' },
-  { value: 3, name: 'KnockoutJS' },
+  { value: 2, name: 'Node JS / NestJS / express / restify' },
+  { value: 4, name: 'Bootstrap / Material-UI' },
   { value: 2, name: 'Elasticsearch' },
   { value: 1, name: 'React Native' },
-  { value: 2, name: 'Magento 2 - Frontend' }
+  { value: 2, name: 'Magento 2 - Frontend (KnockoutJS / jQuery)' }
 ]
 
 export const SkillsSection = (): JSX.Element => {
