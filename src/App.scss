@@ -1,10 +1,40 @@
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 0;
+  }
+  * {
+    -webkit-print-color-adjust: exact !important; /* Chrome, Safari */
+  }
+  body {
+    // zoom: 0.7 !important;
+    margin: 0 !important;
+    .fixed {
+      position: fixed;
+      bottom: 0;
+      left: 50%;
+      width: 95%;
+      transform: translate(-50%, 0);
+    }
+  }
+}
+
+html {
+  font-size: 12px;
+  #root {
+    display: flex;
+    justify-content: center;
+  }
+}
 .App {
+  max-width: 55rem;
   background: white;
   margin: 3em 4em;
   border-radius: 10px;
 
-  .headSection {
+  .section-head {
     .header {
+      padding-right: 0;
       .nameRole {
         .name {
           h1 {
@@ -25,7 +55,7 @@
         .info-row {
           .info-row-head {
             @extend .accent;
-            font-size: 14px;
+            font-size: .77rem;
             text-transform: uppercase;
           }
           .info-row-value {
@@ -36,20 +66,34 @@
     }
   }
   .avatarBox {
+    padding: 0;
     .avatar {
       border-radius: 50%;
-      width: 120px;
-      height: 120px;
+      border: 3px solid rgb(74, 144, 226, .6);
+      $factor: .14;
+      $size: 110;
+      width: $size * 1px;
+      height: $size * 1px;
       text-align: center;
       vertical-align: middle;
-      background: url('./public/image.jpg') -80px -25px no-repeat;
-      background-size: 300px auto;
+      /* original */ 
+      $width: 2592;
+      $height: 1944;
+      $resized-width: $width * $factor;
+      $resized-height: $height * $factor;
+      $offset-width: ($resized-width - $size)/ 2.13;
+      $offset-height: ($resized-height - $size) / 3.6;
+      background: url('./image.jpg') $offset-width * -1px $offset-height * -1px;
+      background-size: $resized-width * 1px $resized-height * 1px;
+      // old
+      // background-size: 300px auto;
+
     }
   }
 }
 .section {
   padding: 1em 0;
-  border-top: 2px solid rgba(0, 0, 0, 0.06);
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
   .section-head {
     font-weight: 700;
     font-size: 1.3rem;
@@ -81,8 +125,10 @@
   white-space: nowrap;
   .skill-score {
     @extend .accent;
+    font-size: .85rem !important;
   }
   .skill-name {
+    font-size: .85rem !important;
     white-space: normal;
     break-after: avoid;
     @extend .values;
@@ -151,12 +197,12 @@
     }
   }
   .contact {
-    padding: 0.4rem calc(var(--bs-gutter-x) / 2);
+    padding: 0 calc(var(--bs-gutter-x) / 2) 0.5rem;
     .email {
-      font-size: 14px;
+      font-size: .9rem;
     }
     .phone {
-      font-size: 14px;
+      font-size: .9rem;
     }
   }
 }
@@ -166,7 +212,7 @@
 }
 
 .values {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .section-hobbies {

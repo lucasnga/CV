@@ -1,2 +1,4 @@
 .App {
+    /* fix printing */
+    width: 100% !important;
 }
