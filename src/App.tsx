@@ -96,10 +96,10 @@ function App(): ReactElement {
       <div className="row section">
         <SkillsSection />
       </div>
-      <div className="row section" style={{ pageBreakAfter: 'always' }}>
+      <div className="row section">
         <LanguagesSection />
       </div>
-      <div className="row section">
+      <div className="row section" style={{ pageBreakAfter: 'always' }}>
         <HobbiesSection />
       </div>
       <div className="row section">
