@@ -5,10 +5,10 @@ export const HeadSection = (): JSX.Element => {
     <>
       <div className="col-9 header">
         <div className="row nameRole">
-          <div className="col-6 name">
+          <div className="col-8 name">
             <h1> Łukasz Anuszkiewicz</h1>
           </div>
-          <div className="col-6 possession">
+          <div className="col-4 possession">
             <h4 className={'accent'}>Frontend Developer</h4>
           </div>
         </div>

@@ -70,7 +70,7 @@ html {
     padding: 0;
     .avatar {
       border: 1px solid rgb(74, 144, 226, 0.6);
-      $factor: 0.21;
+      $factor: 0.18;
       $size: 142;
       width: $size * 0.75 * 1px;
       height: $size * 1px;
@@ -91,7 +91,7 @@ html {
   }
 }
 .section {
-  padding: 1em 0;
+  padding: .7em 0;
   border-top: 1px solid rgba(0, 0, 0, 0.06);
   .section-head {
     font-weight: 700;
@@ -214,8 +214,8 @@ html {
   font-size: 0.85rem;
 }
 
-.accent {
-  color: rgb(74, 144, 226);
+.accent, a {
+  color: rgb(8,37,103);
 }
 
 .values {

@@ -17,7 +17,7 @@ export function Experience({
         <div className={'date'}>{date}</div>
         <div className={'place'}>{place}</div>
       </div>
-      <div className="col experience-info">
+      <div className="col-4 experience-info">
         <div className={'function'}>{func}</div>
         <div className={'company'}>{company}</div>
       </div>
