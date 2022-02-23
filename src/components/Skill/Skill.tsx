@@ -7,14 +7,16 @@ const signs = {
 
 export function Skill({
   name,
-  value
+  value,
+  range = 5
 }: {
   name: string
   value: number
+  range?: number
 }): JSX.Element {
-  const filled = Array(5)
-    .fill(signs.solid, 0, 5)
-    .fill(signs.hollow, value, 5) as string[]
+  const filled = Array(range)
+    .fill(signs.solid, 0, range)
+    .fill(signs.hollow, value, range) as string[]
 
   return (
     <div className={'row skill pb-1'}>
