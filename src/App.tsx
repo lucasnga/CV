@@ -7,10 +7,8 @@ import 'bootstrap'
 import { SkillsSection } from './sections/SkillsSection'
 import { CoursesSection } from './sections/CoursesSection'
 import { ExtraActivitiesSection } from './sections/ExtraActivitiesSection'
-import { ReferencesSection } from './sections/ReferencesSection'
 import { WorkExperienceSection } from './sections/ExperienceSection'
 import { LanguagesSection } from './sections/LanguagesSection'
-import { HobbiesSection } from './sections/HobbiesSection'
 import { EducationSection } from './sections/EducationSection'
 import { HeadSection } from './sections/HeadSection'
 import { RODO } from './sections/RODO'
@@ -99,16 +97,10 @@ function App(): ReactElement {
       <div className="row section">
         <LanguagesSection />
       </div>
-      <div className="row section" style={{ pageBreakAfter: 'always' }}>
-        <HobbiesSection />
-      </div>
-      <div className="row section">
-        <ReferencesSection />
-      </div>
       <div className="row section">
         <ExtraActivitiesSection />
       </div>
-      <div className="row section">
+      <div className="row section" style={{ pageBreakAfter: 'always' }}>
         <CoursesSection />
       </div>
       <div className="row section fixed">
