@@ -89,16 +89,16 @@ function App(): ReactElement {
         <EducationSection />
       </div>
       <div className="row section">
-        <WorkExperienceSection />
-      </div>
-      <div className="row section">
-        <SkillsSection />
-      </div>
-      <div className="row section">
-        <LanguagesSection />
-      </div>
-      <div className="row section">
-        <ExtraActivitiesSection />
+        <div className="col-8">
+          <WorkExperienceSection />
+          <div className="row section">
+            <ExtraActivitiesSection />
+          </div>
+        </div>
+        <div className="col-4">
+          <SkillsSection />
+          <LanguagesSection />
+        </div>
       </div>
       <div className="row section" style={{ pageBreakAfter: 'always' }}>
         <CoursesSection />

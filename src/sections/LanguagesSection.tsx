@@ -15,7 +15,7 @@ const languages = [
 export const LanguagesSection = (): JSX.Element => {
   return (
     <>
-      <h3 className={'section-head col'}>LANGUAGES</h3>
+      <h3 className={'section-head pt-2'}>LANGUAGES</h3>
       {languages.map(({ name, value }) => {
         return (
           <div key={name} className="col section-content">

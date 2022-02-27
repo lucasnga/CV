@@ -26,9 +26,9 @@ html {
   }
 }
 .App {
-  max-width: 55rem;
+  max-width: 60rem;
   background: white;
-  margin: 3em 4em;
+  margin: 2em 1em;
   border-radius: 10px;
 
   .section-head {
@@ -69,6 +69,7 @@ html {
     display: flex;
     padding: 0;
     .avatar {
+      position: absolute;
       border: 1px solid rgb(74, 144, 226, 0.6);
       $factor: 0.18;
       $size: 142;
@@ -91,7 +92,7 @@ html {
   }
 }
 .section {
-  padding: .7em 0;
+  padding: 0.7em 0;
   border-top: 1px solid rgba(0, 0, 0, 0.06);
   .section-head {
     font-weight: 700;
@@ -102,6 +103,9 @@ html {
 }
 
 .experience {
+  ul {
+    padding-inline-start: 1.5rem;
+  }
   .experience-info {
     .date {
       @extend .values;
@@ -112,6 +116,8 @@ html {
     }
     .function {
       font-size: 1.2rem;
+      font-style: italic;
+      font-weight: 900;
     }
 
     .company {
@@ -214,8 +220,9 @@ html {
   font-size: 0.85rem;
 }
 
-.accent, a {
-  color: rgb(8,37,103);
+.accent,
+a {
+  color: rgb(8, 37, 103);
 }
 
 .values {

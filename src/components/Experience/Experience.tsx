@@ -4,22 +4,31 @@ export function Experience({
   date,
   place,
   func,
-  company
+  company,
+  details
 }: {
   date: string
   place: string
   func: string
   company: string
+  details?: Array<string>
 }): JSX.Element {
   return (
     <div className="row experience">
-      <div className="col-4 experience-info">
+      <div className="col-6 experience-info">
         <div className={'date'}>{date}</div>
         <div className={'place'}>{place}</div>
       </div>
-      <div className="col-4 experience-info">
+      <div className="col-6 experience-info">
         <div className={'function'}>{func}</div>
         <div className={'company'}>{company}</div>
+      </div>
+      <div className="col-12">
+        <ul>
+          {details?.map((detail) => (
+            <li>{detail}</li>
+          ))}
+        </ul>
       </div>
     </div>
   )
