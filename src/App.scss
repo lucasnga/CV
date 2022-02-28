@@ -84,7 +84,7 @@ html {
       $resized-height: $height * $factor;
       $offset-width: ($resized-width - $size)/ 1.94;
       $offset-height: ($resized-height - $size) / 3.6;
-      background: url('./image.jpg') $offset-width * -1px $offset-height * -1px;
+      background: url('../image.jpg') $offset-width * -1px $offset-height * -1px;
       background-size: $resized-width * 1px $resized-height * 1px;
       // old
       // background-size: 300px auto;
