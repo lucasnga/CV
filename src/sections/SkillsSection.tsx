@@ -32,12 +32,12 @@ const skills = [
 export const SkillsSection = (): JSX.Element => {
   return (
     <>
-      <h3 className={'section-head'}>SKILLS</h3>
-      <div className="col skills-col">
-        {skills.map((skill) => (
-          <Skill key={skill.name} name={skill.name} value={skill.value} />
-        ))}
+      <div className="row">
+        <h3 className={'section-head'}>SKILLS</h3>
       </div>
+      {skills.map((skill) => (
+        <Skill key={skill.name} name={skill.name} value={skill.value} />
+      ))}
     </>
   )
 }

@@ -23,7 +23,7 @@ export function Skill({
       <div className={'col'}>
         <span className={'skill-name'}>{name}</span>
       </div>
-      <div className={'col-4'}>
+      <div className={'col-3 p-0'}>
         <span className={'skill-score'}>{filled.join('').toString()}</span>
       </div>
     </div>

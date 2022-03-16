@@ -25,8 +25,8 @@ export function Experience({
       </div>
       <div className="col-12">
         <ul>
-          {details?.map((detail) => (
-            <li>{detail}</li>
+          {details?.map((detail, index) => (
+            <li key={index}>{detail}</li>
           ))}
         </ul>
       </div>

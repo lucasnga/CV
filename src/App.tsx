@@ -22,14 +22,14 @@ function App(): ReactElement {
       <div className="row section">
         <EducationSection />
       </div>
-      <div className="row section">
+      <div className="row section justify-content-between">
         <div className="col-8">
           <WorkExperienceSection />
           <div className="row section">
             <ExtraActivitiesSection />
           </div>
         </div>
-        <div className="col-4">
+        <div className="col-3 p-0">
           <SkillsSection />
           <LanguagesSection />
         </div>
