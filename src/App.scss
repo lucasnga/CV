@@ -72,22 +72,16 @@ html {
       position: absolute;
       border: 1px solid rgb(74, 144, 226, 0.6);
       $factor: 0.18;
-      $size: 142;
+      $size: 160;
       width: $size * 0.75 * 1px;
       height: $size * 1px;
       text-align: center;
       vertical-align: middle;
-      /* original */
-      $width: 2592;
-      $height: 1944;
-      $resized-width: $width * $factor;
-      $resized-height: $height * $factor;
-      $offset-width: ($resized-width - $size)/ 1.94;
-      $offset-height: ($resized-height - $size) / 3.6;
-      background: url('../image.jpg') $offset-width * -1px $offset-height * -1px;
-      background-size: $resized-width * 1px $resized-height * 1px;
-      // old
-      // background-size: 300px auto;
+      /* original image size */
+      $width: 428;
+      $height: 643;
+      background: url('../image.jpg');
+      background-size: $size * 0.75 * 1px auto;
     }
   }
 }
