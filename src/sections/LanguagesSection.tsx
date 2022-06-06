@@ -19,7 +19,7 @@ export const LanguagesSection = (): JSX.Element => {
         <h3 className={'section-head pt-2 text-end'}>LANGUAGES</h3>
       </div>
       {languages.map(({ name, value }) => {
-        return <Skill name={name} value={value} range={6} />
+        return <Skill key={name} name={name} value={value} range={6} />
       })}
     </>
   )
