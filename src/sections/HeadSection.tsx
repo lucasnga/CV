@@ -67,7 +67,7 @@ export const HeadSection = (): JSX.Element => {
           </div>
         </div>
       </div>
-      <div className="col-3 avatarBox">
+      <div className="col-3 pe-0 avatarBox">
         <div className="avatar" />
       </div>
     </>

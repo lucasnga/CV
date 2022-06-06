@@ -16,7 +16,7 @@ export const LanguagesSection = (): JSX.Element => {
   return (
     <>
       <div className="row">
-        <h3 className={'section-head pt-2'}>LANGUAGES</h3>
+        <h3 className={'section-head pt-2 text-end'}>LANGUAGES</h3>
       </div>
       {languages.map(({ name, value }) => {
         return <Skill name={name} value={value} range={6} />

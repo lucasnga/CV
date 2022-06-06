@@ -29,7 +29,7 @@ function App(): ReactElement {
             <ExtraActivitiesSection />
           </div>
         </div>
-        <div className="col-3 p-0">
+        <div className="col-4">
           <SkillsSection />
           <LanguagesSection />
         </div>

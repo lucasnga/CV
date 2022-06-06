@@ -33,7 +33,7 @@ export const SkillsSection = (): JSX.Element => {
   return (
     <>
       <div className="row">
-        <h3 className={'section-head'}>SKILLS</h3>
+        <h3 className={'section-head text-end'}>SKILLS</h3>
       </div>
       {skills.map((skill) => (
         <Skill key={skill.name} name={skill.name} value={skill.value} />

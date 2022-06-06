@@ -16,10 +16,10 @@ export function Skill({
 }): JSX.Element {
   return (
     <div className={'row skill pb-1'}>
-      <div className={'col'}>
+      <div className={'col text-end ps-0'}>
         <span className={'skill-name'}>{name}</span>
       </div>
-      <div className={'col-3 p-0'}>
+      <div className={'col-3 text-end ps-0'}>
         <span className={'skill-score'}>
           {Array(range).fill(signs.solid).fill(signs.hollow, value).join('')}
         </span>
