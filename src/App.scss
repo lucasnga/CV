@@ -1,3 +1,7 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins/breakpoints";
+
 @media print {
   @page {
     size: A4 portrait;
@@ -68,6 +72,9 @@ html {
     justify-content: flex-end !important;
     display: flex;
     .avatar {
+      @include media-breakpoint-down(sm) {
+        display: none;
+      }
       position: absolute;
       border: 1px solid rgb(74, 144, 226, 0.6);
       $factor: 0.18;
