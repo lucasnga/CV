@@ -1,49 +1,2410 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`main App component should render correctly in "debug" mode 1`] = `
-<div
-  className="App"
->
-  <header
-    className="App-header"
-  >
-    <p>
-      Hello Vite + React!
-    </p>
-    <p>
-      <button
-        onClick={[Function]}
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="App"
       >
-        count is: 
-        0
-      </button>
-    </p>
-    <p>
-      Edit 
-      <code>
-        App.tsx
-      </code>
-       and save to test HMR updates.
-    </p>
-    <p>
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        rel="noopener noreferrer"
-        target="_blank"
+        <div
+          class="row headSection"
+        >
+          <div
+            class="col-sm-9 col-xs-12 header"
+          >
+            <div
+              class="row nameRole"
+            >
+              <div
+                class="col-7 name"
+              >
+                <h1>
+                   Łukasz Anuszkiewicz
+                </h1>
+              </div>
+              <div
+                class="col-5 text-center possession"
+              >
+                <h4
+                  class="accent"
+                >
+                  Frontend Developer
+                </h4>
+              </div>
+            </div>
+            <div
+              class="row infoBox"
+            >
+              <div
+                class="col-sm-6 col-xs-12"
+              >
+                <div
+                  class="row info-row"
+                >
+                  <div
+                    class="col-4"
+                  >
+                    <span
+                      class="info-row-head"
+                    >
+                      Living in
+                    </span>
+                  </div>
+                  <div
+                    class="col-6"
+                  >
+                    <div
+                      class="info-row-value"
+                    >
+                      Warsaw
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="row info-row"
+                >
+                  <div
+                    class="col-4"
+                  >
+                    <span
+                      class="info-row-head"
+                    >
+                      Email
+                    </span>
+                  </div>
+                  <div
+                    class="col-6"
+                  >
+                    <span
+                      class="info-row-value"
+                    >
+                      lucasnga.official@gmail.com
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="row info-row"
+                >
+                  <div
+                    class="col-4"
+                  >
+                    <span
+                      class="info-row-head"
+                    >
+                      Links
+                    </span>
+                  </div>
+                  <div
+                    class="col-6"
+                  >
+                    <span
+                      class="info-row-value"
+                    >
+                      <a
+                        href="https://www.linkedin.com/in/lukasz-anuszkiewicz"
+                      >
+                        LinkedIn
+                      </a>
+                    </span>
+                    , 
+                    <span
+                      class="info-row-value"
+                    >
+                      <a
+                        href="https://github.com/lucasnga"
+                      >
+                        Github
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-xs-12"
+              >
+                <div
+                  class="row info-row"
+                >
+                  <div
+                    class="col-4"
+                  >
+                    <span
+                      class="info-row-head"
+                    >
+                      Phone
+                    </span>
+                  </div>
+                  <div
+                    class="col-6"
+                  >
+                    <span
+                      class="info-row-value"
+                    >
+                       509-232-926
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="row info-row"
+                >
+                  <div
+                    class="col-4"
+                  >
+                    <span
+                      class="info-row-head"
+                    >
+                      Date / Place of birth
+                    </span>
+                  </div>
+                  <div
+                    class="col-6"
+                  >
+                    <span
+                      class="info-row-value"
+                    >
+                      1984-09-26 Warsaw
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-3 pe-0 avatarBox"
+          >
+            <div
+              class="avatar"
+            />
+          </div>
+        </div>
+        <div
+          class="row section"
+        >
+          <h3
+            class="section-head"
+          >
+            EDUCATION
+          </h3>
+          <div
+            class="col section-content"
+          >
+            <div
+              class="row education"
+            >
+              <div
+                class="col-4 education-info"
+              >
+                <div
+                  class="date"
+                >
+                  2006 – 2010
+                </div>
+                <div
+                  class="place"
+                >
+                  Warszawa
+                </div>
+              </div>
+              <div
+                class="col education-info"
+              >
+                <div
+                  class="company"
+                >
+                  Wyższa Szkoła Technologii Informatycznych w Warszawie
+                </div>
+                <div
+                  class="func"
+                >
+                  Inżynier
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row section justify-content-between"
+        >
+          <div
+            class="col-sm-8 col-xs-12"
+          >
+            <h3
+              class="section-head"
+            >
+              WORK EXPERIENCE
+            </h3>
+            <div
+              class="col section-content"
+            >
+              <div
+                class="row experience"
+              >
+                <div
+                  class="col-6 experience-info"
+                >
+                  <div
+                    class="date"
+                  >
+                    Feb 2019 – Apr 2020
+                  </div>
+                  <div
+                    class="place"
+                  >
+                    Warsaw
+                  </div>
+                </div>
+                <div
+                  class="col-6 experience-info"
+                >
+                  <div
+                    class="function"
+                  >
+                    Junior Frontend Developer
+                  </div>
+                  <div
+                    class="company"
+                  >
+                    ORBA Sp.z o.o.
+                  </div>
+                </div>
+                <div
+                  class="col-12"
+                >
+                  <ul>
+                    <li>
+                      Modyfikacja widoków sklepu internetowego Magento, VueStoreFront
+                    </li>
+                    <li>
+                      Praca z wieloma frameworkami: React, Vue oraz KnockoutJS
+                    </li>
+                    <li>
+                      Tworzenie aplikacji SPA w JS z React dla Magento
+                    </li>
+                    <li>
+                      Praca z systemem kontroli wersji GIT, oprogramowaniem do zarządzania projektem Ansible oraz Jira, w wielu dynamicznych zespołach
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="row experience"
+              >
+                <div
+                  class="col-6 experience-info"
+                >
+                  <div
+                    class="date"
+                  >
+                    Oct 2017 – Dec 2017
+                  </div>
+                  <div
+                    class="place"
+                  >
+                    Warsaw
+                  </div>
+                </div>
+                <div
+                  class="col-6 experience-info"
+                >
+                  <div
+                    class="function"
+                  >
+                    Frontend developer
+                  </div>
+                  <div
+                    class="company"
+                  >
+                    Perspektywy Press
+                  </div>
+                </div>
+                <div
+                  class="col-12"
+                >
+                  <ul>
+                    <li>
+                      Opracowywanie widoków (HTML + SCSS + PS)
+                    </li>
+                    <li>
+                      Praca z systemem CMS Joomla
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="row experience"
+              >
+                <div
+                  class="col-6 experience-info"
+                >
+                  <div
+                    class="date"
+                  >
+                    Sep 2016 – Sep 2017
+                  </div>
+                  <div
+                    class="place"
+                  >
+                    Warsaw
+                  </div>
+                </div>
+                <div
+                  class="col-6 experience-info"
+                >
+                  <div
+                    class="function"
+                  >
+                    Junior Frontend Developer
+                  </div>
+                  <div
+                    class="company"
+                  >
+                    ROOTSHER
+                  </div>
+                </div>
+                <div
+                  class="col-12"
+                >
+                  <ul>
+                    <li>
+                      opracowywanie widoków oraz tworzenie landing pages (HTML, CSS, React)
+                    </li>
+                    <li>
+                      Praca z systemem CMS Wordpress, frameworkiem NextJS, React
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="row experience"
+              >
+                <div
+                  class="col-6 experience-info"
+                >
+                  <div
+                    class="date"
+                  >
+                    Dec 2008 – Dec 2009
+                  </div>
+                  <div
+                    class="place"
+                  >
+                    Warsaw
+                  </div>
+                </div>
+                <div
+                  class="col-6 experience-info"
+                >
+                  <div
+                    class="function"
+                  >
+                    Helpdesk
+                  </div>
+                  <div
+                    class="company"
+                  >
+                    eFuzja
+                  </div>
+                </div>
+                <div
+                  class="col-12"
+                >
+                  <ul>
+                    <li>
+                      Konf. oprogramowania, sprzętu, urządzeń sieciowych dla klientów
+                    </li>
+                    <li>
+                      Konfiguracja sieciowych urządzeń aktywnych, konserwacja oraz układanie okablowania sieciowego
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="row experience"
+              >
+                <div
+                  class="col-6 experience-info"
+                >
+                  <div
+                    class="date"
+                  >
+                    Apr 2005 – Mar 2012
+                  </div>
+                  <div
+                    class="place"
+                  >
+                    Karczew
+                  </div>
+                </div>
+                <div
+                  class="col-6 experience-info"
+                >
+                  <div
+                    class="function"
+                  >
+                    Administrator sieci
+                  </div>
+                  <div
+                    class="company"
+                  >
+                    Mlekomat Sp.Jawna
+                  </div>
+                </div>
+                <div
+                  class="col-12"
+                >
+                  <ul>
+                    <li>
+                      Konfiguracja sprzętu sieciowego w firmie oraz urządzeń zdalnych
+                    </li>
+                    <li>
+                      Zarządzanie serwerem usług sieciowych SMTP, POP3, SAMBA, RD (Linux)
+                    </li>
+                    <li>
+                      Tworzenie i zarządzanie środowiskiem pracy w firmie, konfiguracja sprzętu komputerowego oraz rozwiązywanie problemów z oprogramowaniem
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row section"
+            >
+              <h3
+                class="section-head"
+              >
+                EXTRA-CURRICULAR ACTIVITIES
+              </h3>
+              <div
+                class="col section-content"
+              >
+                <div
+                  class="row activity"
+                >
+                  <div
+                    class="col-6 activity-info"
+                  >
+                    <div
+                      class="date"
+                    >
+                      September 2003 – June 2009
+                    </div>
+                    <div
+                      class="place"
+                    >
+                      Warsaw
+                    </div>
+                  </div>
+                  <div
+                    class="col-6 activity-info"
+                  >
+                    <div
+                      class="function"
+                    >
+                      Social Instructor
+                    </div>
+                    <div
+                      class="company"
+                    >
+                      Youth Palace
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-sm-4 col-xs-12"
+          >
+            <div
+              class="row"
+            >
+              <h3
+                class="section-head text-end"
+              >
+                SKILLS
+              </h3>
+            </div>
+            <div
+              class="row skill pb-1"
+            >
+              <div
+                class="col text-end ps-0"
+              >
+                <span
+                  class="skill-name"
+                >
+                  HTML / CSS / SCSS
+                </span>
+              </div>
+              <div
+                class="col-3 text-end ps-0"
+              >
+                <span
+                  class="skill-score"
+                >
+                  ★★★☆☆
+                </span>
+              </div>
+            </div>
+            <div
+              class="row skill pb-1"
+            >
+              <div
+                class="col text-end ps-0"
+              >
+                <span
+                  class="skill-name"
+                >
+                  Javascript / TypeScript
+                </span>
+              </div>
+              <div
+                class="col-3 text-end ps-0"
+              >
+                <span
+                  class="skill-score"
+                >
+                  ★★★☆☆
+                </span>
+              </div>
+            </div>
+            <div
+              class="row skill pb-1"
+            >
+              <div
+                class="col text-end ps-0"
+              >
+                <span
+                  class="skill-name"
+                >
+                  Git
+                </span>
+              </div>
+              <div
+                class="col-3 text-end ps-0"
+              >
+                <span
+                  class="skill-score"
+                >
+                  ★★★☆☆
+                </span>
+              </div>
+            </div>
+            <div
+              class="row skill pb-1"
+            >
+              <div
+                class="col text-end ps-0"
+              >
+                <span
+                  class="skill-name"
+                >
+                  React (redux / router)
+                </span>
+              </div>
+              <div
+                class="col-3 text-end ps-0"
+              >
+                <span
+                  class="skill-score"
+                >
+                  ★★★☆☆
+                </span>
+              </div>
+            </div>
+            <div
+              class="row skill pb-1"
+            >
+              <div
+                class="col text-end ps-0"
+              >
+                <span
+                  class="skill-name"
+                >
+                  VueJS (vuex / router)
+                </span>
+              </div>
+              <div
+                class="col-3 text-end ps-0"
+              >
+                <span
+                  class="skill-score"
+                >
+                  ★★☆☆☆
+                </span>
+              </div>
+            </div>
+            <div
+              class="row skill pb-1"
+            >
+              <div
+                class="col text-end ps-0"
+              >
+                <span
+                  class="skill-name"
+                >
+                  REST API / axios / fetch
+                </span>
+              </div>
+              <div
+                class="col-3 text-end ps-0"
+              >
+                <span
+                  class="skill-score"
+                >
+                  ★★★★☆
+                </span>
+              </div>
+            </div>
+            <div
+              class="row skill pb-1"
+            >
+              <div
+                class="col text-end ps-0"
+              >
+                <span
+                  class="skill-name"
+                >
+                  Testing (Jest / Cypress)
+                </span>
+              </div>
+              <div
+                class="col-3 text-end ps-0"
+              >
+                <span
+                  class="skill-score"
+                >
+                  ★★☆☆☆
+                </span>
+              </div>
+            </div>
+            <div
+              class="row skill pb-1"
+            >
+              <div
+                class="col text-end ps-0"
+              >
+                <span
+                  class="skill-name"
+                >
+                  Scrum / Kanban (Jira / Assembla)
+                </span>
+              </div>
+              <div
+                class="col-3 text-end ps-0"
+              >
+                <span
+                  class="skill-score"
+                >
+                  ★★☆☆☆
+                </span>
+              </div>
+            </div>
+            <div
+              class="row skill pb-1"
+            >
+              <div
+                class="col text-end ps-0"
+              >
+                <span
+                  class="skill-name"
+                >
+                  Linux (Fedora / Debian)
+                </span>
+              </div>
+              <div
+                class="col-3 text-end ps-0"
+              >
+                <span
+                  class="skill-score"
+                >
+                  ★★★★☆
+                </span>
+              </div>
+            </div>
+            <div
+              class="row skill pb-1"
+            >
+              <div
+                class="col text-end ps-0"
+              >
+                <span
+                  class="skill-name"
+                >
+                  Docker / Vagant
+                </span>
+              </div>
+              <div
+                class="col-3 text-end ps-0"
+              >
+                <span
+                  class="skill-score"
+                >
+                  ★★★☆☆
+                </span>
+              </div>
+            </div>
+            <div
+              class="row skill pb-1"
+            >
+              <div
+                class="col text-end ps-0"
+              >
+                <span
+                  class="skill-name"
+                >
+                  yarn / npm / parcel
+                </span>
+              </div>
+              <div
+                class="col-3 text-end ps-0"
+              >
+                <span
+                  class="skill-score"
+                >
+                  ★★★☆☆
+                </span>
+              </div>
+            </div>
+            <div
+              class="row skill pb-1"
+            >
+              <div
+                class="col text-end ps-0"
+              >
+                <span
+                  class="skill-name"
+                >
+                  Python / Bash (Scripting) 
+                </span>
+              </div>
+              <div
+                class="col-3 text-end ps-0"
+              >
+                <span
+                  class="skill-score"
+                >
+                  ★★☆☆☆
+                </span>
+              </div>
+            </div>
+            <div
+              class="row skill pb-1"
+            >
+              <div
+                class="col text-end ps-0"
+              >
+                <span
+                  class="skill-name"
+                >
+                  MySQL / PostreSQL
+                </span>
+              </div>
+              <div
+                class="col-3 text-end ps-0"
+              >
+                <span
+                  class="skill-score"
+                >
+                  ★★★☆☆
+                </span>
+              </div>
+            </div>
+            <div
+              class="row skill pb-1"
+            >
+              <div
+                class="col text-end ps-0"
+              >
+                <span
+                  class="skill-name"
+                >
+                  MongoDB / Redis
+                </span>
+              </div>
+              <div
+                class="col-3 text-end ps-0"
+              >
+                <span
+                  class="skill-score"
+                >
+                  ★★☆☆☆
+                </span>
+              </div>
+            </div>
+            <div
+              class="row skill pb-1"
+            >
+              <div
+                class="col text-end ps-0"
+              >
+                <span
+                  class="skill-name"
+                >
+                  babel / webpack / gulp
+                </span>
+              </div>
+              <div
+                class="col-3 text-end ps-0"
+              >
+                <span
+                  class="skill-score"
+                >
+                  ★★★★☆
+                </span>
+              </div>
+            </div>
+            <div
+              class="row skill pb-1"
+            >
+              <div
+                class="col text-end ps-0"
+              >
+                <span
+                  class="skill-name"
+                >
+                  lodash / ramda
+                </span>
+              </div>
+              <div
+                class="col-3 text-end ps-0"
+              >
+                <span
+                  class="skill-score"
+                >
+                  ★★★☆☆
+                </span>
+              </div>
+            </div>
+            <div
+              class="row skill pb-1"
+            >
+              <div
+                class="col text-end ps-0"
+              >
+                <span
+                  class="skill-name"
+                >
+                  Design patterns
+                </span>
+              </div>
+              <div
+                class="col-3 text-end ps-0"
+              >
+                <span
+                  class="skill-score"
+                >
+                  ★☆☆☆☆
+                </span>
+              </div>
+            </div>
+            <div
+              class="row skill pb-1"
+            >
+              <div
+                class="col text-end ps-0"
+              >
+                <span
+                  class="skill-name"
+                >
+                  Node JS / NestJS / express
+                </span>
+              </div>
+              <div
+                class="col-3 text-end ps-0"
+              >
+                <span
+                  class="skill-score"
+                >
+                  ★★☆☆☆
+                </span>
+              </div>
+            </div>
+            <div
+              class="row skill pb-1"
+            >
+              <div
+                class="col text-end ps-0"
+              >
+                <span
+                  class="skill-name"
+                >
+                  Bootstrap / Material-UI
+                </span>
+              </div>
+              <div
+                class="col-3 text-end ps-0"
+              >
+                <span
+                  class="skill-score"
+                >
+                  ★★★★☆
+                </span>
+              </div>
+            </div>
+            <div
+              class="row skill pb-1"
+            >
+              <div
+                class="col text-end ps-0"
+              >
+                <span
+                  class="skill-name"
+                >
+                  Elasticsearch
+                </span>
+              </div>
+              <div
+                class="col-3 text-end ps-0"
+              >
+                <span
+                  class="skill-score"
+                >
+                  ★★☆☆☆
+                </span>
+              </div>
+            </div>
+            <div
+              class="row skill pb-1"
+            >
+              <div
+                class="col text-end ps-0"
+              >
+                <span
+                  class="skill-name"
+                >
+                  React Native / Expo
+                </span>
+              </div>
+              <div
+                class="col-3 text-end ps-0"
+              >
+                <span
+                  class="skill-score"
+                >
+                  ★☆☆☆☆
+                </span>
+              </div>
+            </div>
+            <div
+              class="row skill pb-1"
+            >
+              <div
+                class="col text-end ps-0"
+              >
+                <span
+                  class="skill-name"
+                >
+                  Magento 2 - Frontend (KnockoutJS / jQuery)
+                </span>
+              </div>
+              <div
+                class="col-3 text-end ps-0"
+              >
+                <span
+                  class="skill-score"
+                >
+                  ★★☆☆☆
+                </span>
+              </div>
+            </div>
+            <div
+              class="row"
+            >
+              <h3
+                class="section-head pt-2 text-end"
+              >
+                LANGUAGES
+              </h3>
+            </div>
+            <div
+              class="row skill pb-1"
+            >
+              <div
+                class="col text-end ps-0"
+              >
+                <span
+                  class="skill-name"
+                >
+                  English
+                </span>
+              </div>
+              <div
+                class="col-3 text-end ps-0"
+              >
+                <span
+                  class="skill-score"
+                >
+                  ★★★☆☆☆
+                </span>
+              </div>
+            </div>
+            <div
+              class="row skill pb-1"
+            >
+              <div
+                class="col text-end ps-0"
+              >
+                <span
+                  class="skill-name"
+                >
+                  Polish
+                </span>
+              </div>
+              <div
+                class="col-3 text-end ps-0"
+              >
+                <span
+                  class="skill-score"
+                >
+                  ★★★★★★
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row section"
+          style="page-break-after: always;"
+        >
+          <h3
+            class="section-head"
+          >
+            COURSES
+          </h3>
+          <div
+            class="col section-content"
+          >
+            <div
+              class="row course"
+            >
+              <div
+                class="col-4 course-info"
+              >
+                <div
+                  class="date"
+                >
+                  September 2016
+                </div>
+              </div>
+              <div
+                class="col course-info"
+              >
+                <div
+                  class="function"
+                >
+                  JavaScript
+                </div>
+                <div
+                  class="company"
+                >
+                  ROOTSHER
+                </div>
+              </div>
+            </div>
+            <div
+              class="row course"
+            >
+              <div
+                class="col-4 course-info"
+              >
+                <div
+                  class="date"
+                >
+                  February 2020
+                </div>
+              </div>
+              <div
+                class="col course-info"
+              >
+                <div
+                  class="function"
+                >
+                  DevMeeting Blockchain
+                </div>
+                <div
+                  class="company"
+                >
+                  360codelab by Daniel Kmak
+                </div>
+              </div>
+            </div>
+            <div
+              class="row course"
+            >
+              <div
+                class="col-4 course-info"
+              >
+                <div
+                  class="date"
+                >
+                  April 2020
+                </div>
+              </div>
+              <div
+                class="col course-info"
+              >
+                <div
+                  class="function"
+                >
+                  React Native Workshop
+                </div>
+                <div
+                  class="company"
+                >
+                  DevMeetings by Sebastian Mysakowski
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row section fixed"
+        >
+          <h3
+            class="section-head"
+          />
+          <div
+            class="col px-1"
+            style="color: rgba(0, 0, 0, 0.4);"
+          >
+            <h6
+              class="rodo"
+            >
+              Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji (zgodnie z ustawą z dnia 10 maja 2018 roku o ochronie danych osobowych (Dz. Ustaw z 2018, poz. 1000) oraz zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (RODO).
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="App"
+    >
+      <div
+        class="row headSection"
       >
-        Learn React
-      </a>
-       | 
-      <a
-        className="App-link"
-        href="https://vitejs.dev/guide/features.html"
-        rel="noopener noreferrer"
-        target="_blank"
+        <div
+          class="col-sm-9 col-xs-12 header"
+        >
+          <div
+            class="row nameRole"
+          >
+            <div
+              class="col-7 name"
+            >
+              <h1>
+                 Łukasz Anuszkiewicz
+              </h1>
+            </div>
+            <div
+              class="col-5 text-center possession"
+            >
+              <h4
+                class="accent"
+              >
+                Frontend Developer
+              </h4>
+            </div>
+          </div>
+          <div
+            class="row infoBox"
+          >
+            <div
+              class="col-sm-6 col-xs-12"
+            >
+              <div
+                class="row info-row"
+              >
+                <div
+                  class="col-4"
+                >
+                  <span
+                    class="info-row-head"
+                  >
+                    Living in
+                  </span>
+                </div>
+                <div
+                  class="col-6"
+                >
+                  <div
+                    class="info-row-value"
+                  >
+                    Warsaw
+                  </div>
+                </div>
+              </div>
+              <div
+                class="row info-row"
+              >
+                <div
+                  class="col-4"
+                >
+                  <span
+                    class="info-row-head"
+                  >
+                    Email
+                  </span>
+                </div>
+                <div
+                  class="col-6"
+                >
+                  <span
+                    class="info-row-value"
+                  >
+                    lucasnga.official@gmail.com
+                  </span>
+                </div>
+              </div>
+              <div
+                class="row info-row"
+              >
+                <div
+                  class="col-4"
+                >
+                  <span
+                    class="info-row-head"
+                  >
+                    Links
+                  </span>
+                </div>
+                <div
+                  class="col-6"
+                >
+                  <span
+                    class="info-row-value"
+                  >
+                    <a
+                      href="https://www.linkedin.com/in/lukasz-anuszkiewicz"
+                    >
+                      LinkedIn
+                    </a>
+                  </span>
+                  , 
+                  <span
+                    class="info-row-value"
+                  >
+                    <a
+                      href="https://github.com/lucasnga"
+                    >
+                      Github
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-sm-6 col-xs-12"
+            >
+              <div
+                class="row info-row"
+              >
+                <div
+                  class="col-4"
+                >
+                  <span
+                    class="info-row-head"
+                  >
+                    Phone
+                  </span>
+                </div>
+                <div
+                  class="col-6"
+                >
+                  <span
+                    class="info-row-value"
+                  >
+                     509-232-926
+                  </span>
+                </div>
+              </div>
+              <div
+                class="row info-row"
+              >
+                <div
+                  class="col-4"
+                >
+                  <span
+                    class="info-row-head"
+                  >
+                    Date / Place of birth
+                  </span>
+                </div>
+                <div
+                  class="col-6"
+                >
+                  <span
+                    class="info-row-value"
+                  >
+                    1984-09-26 Warsaw
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-3 pe-0 avatarBox"
+        >
+          <div
+            class="avatar"
+          />
+        </div>
+      </div>
+      <div
+        class="row section"
       >
-        Vite Docs
-      </a>
-    </p>
-  </header>
-</div>
+        <h3
+          class="section-head"
+        >
+          EDUCATION
+        </h3>
+        <div
+          class="col section-content"
+        >
+          <div
+            class="row education"
+          >
+            <div
+              class="col-4 education-info"
+            >
+              <div
+                class="date"
+              >
+                2006 – 2010
+              </div>
+              <div
+                class="place"
+              >
+                Warszawa
+              </div>
+            </div>
+            <div
+              class="col education-info"
+            >
+              <div
+                class="company"
+              >
+                Wyższa Szkoła Technologii Informatycznych w Warszawie
+              </div>
+              <div
+                class="func"
+              >
+                Inżynier
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="row section justify-content-between"
+      >
+        <div
+          class="col-sm-8 col-xs-12"
+        >
+          <h3
+            class="section-head"
+          >
+            WORK EXPERIENCE
+          </h3>
+          <div
+            class="col section-content"
+          >
+            <div
+              class="row experience"
+            >
+              <div
+                class="col-6 experience-info"
+              >
+                <div
+                  class="date"
+                >
+                  Feb 2019 – Apr 2020
+                </div>
+                <div
+                  class="place"
+                >
+                  Warsaw
+                </div>
+              </div>
+              <div
+                class="col-6 experience-info"
+              >
+                <div
+                  class="function"
+                >
+                  Junior Frontend Developer
+                </div>
+                <div
+                  class="company"
+                >
+                  ORBA Sp.z o.o.
+                </div>
+              </div>
+              <div
+                class="col-12"
+              >
+                <ul>
+                  <li>
+                    Modyfikacja widoków sklepu internetowego Magento, VueStoreFront
+                  </li>
+                  <li>
+                    Praca z wieloma frameworkami: React, Vue oraz KnockoutJS
+                  </li>
+                  <li>
+                    Tworzenie aplikacji SPA w JS z React dla Magento
+                  </li>
+                  <li>
+                    Praca z systemem kontroli wersji GIT, oprogramowaniem do zarządzania projektem Ansible oraz Jira, w wielu dynamicznych zespołach
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="row experience"
+            >
+              <div
+                class="col-6 experience-info"
+              >
+                <div
+                  class="date"
+                >
+                  Oct 2017 – Dec 2017
+                </div>
+                <div
+                  class="place"
+                >
+                  Warsaw
+                </div>
+              </div>
+              <div
+                class="col-6 experience-info"
+              >
+                <div
+                  class="function"
+                >
+                  Frontend developer
+                </div>
+                <div
+                  class="company"
+                >
+                  Perspektywy Press
+                </div>
+              </div>
+              <div
+                class="col-12"
+              >
+                <ul>
+                  <li>
+                    Opracowywanie widoków (HTML + SCSS + PS)
+                  </li>
+                  <li>
+                    Praca z systemem CMS Joomla
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="row experience"
+            >
+              <div
+                class="col-6 experience-info"
+              >
+                <div
+                  class="date"
+                >
+                  Sep 2016 – Sep 2017
+                </div>
+                <div
+                  class="place"
+                >
+                  Warsaw
+                </div>
+              </div>
+              <div
+                class="col-6 experience-info"
+              >
+                <div
+                  class="function"
+                >
+                  Junior Frontend Developer
+                </div>
+                <div
+                  class="company"
+                >
+                  ROOTSHER
+                </div>
+              </div>
+              <div
+                class="col-12"
+              >
+                <ul>
+                  <li>
+                    opracowywanie widoków oraz tworzenie landing pages (HTML, CSS, React)
+                  </li>
+                  <li>
+                    Praca z systemem CMS Wordpress, frameworkiem NextJS, React
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="row experience"
+            >
+              <div
+                class="col-6 experience-info"
+              >
+                <div
+                  class="date"
+                >
+                  Dec 2008 – Dec 2009
+                </div>
+                <div
+                  class="place"
+                >
+                  Warsaw
+                </div>
+              </div>
+              <div
+                class="col-6 experience-info"
+              >
+                <div
+                  class="function"
+                >
+                  Helpdesk
+                </div>
+                <div
+                  class="company"
+                >
+                  eFuzja
+                </div>
+              </div>
+              <div
+                class="col-12"
+              >
+                <ul>
+                  <li>
+                    Konf. oprogramowania, sprzętu, urządzeń sieciowych dla klientów
+                  </li>
+                  <li>
+                    Konfiguracja sieciowych urządzeń aktywnych, konserwacja oraz układanie okablowania sieciowego
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="row experience"
+            >
+              <div
+                class="col-6 experience-info"
+              >
+                <div
+                  class="date"
+                >
+                  Apr 2005 – Mar 2012
+                </div>
+                <div
+                  class="place"
+                >
+                  Karczew
+                </div>
+              </div>
+              <div
+                class="col-6 experience-info"
+              >
+                <div
+                  class="function"
+                >
+                  Administrator sieci
+                </div>
+                <div
+                  class="company"
+                >
+                  Mlekomat Sp.Jawna
+                </div>
+              </div>
+              <div
+                class="col-12"
+              >
+                <ul>
+                  <li>
+                    Konfiguracja sprzętu sieciowego w firmie oraz urządzeń zdalnych
+                  </li>
+                  <li>
+                    Zarządzanie serwerem usług sieciowych SMTP, POP3, SAMBA, RD (Linux)
+                  </li>
+                  <li>
+                    Tworzenie i zarządzanie środowiskiem pracy w firmie, konfiguracja sprzętu komputerowego oraz rozwiązywanie problemów z oprogramowaniem
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div
+            class="row section"
+          >
+            <h3
+              class="section-head"
+            >
+              EXTRA-CURRICULAR ACTIVITIES
+            </h3>
+            <div
+              class="col section-content"
+            >
+              <div
+                class="row activity"
+              >
+                <div
+                  class="col-6 activity-info"
+                >
+                  <div
+                    class="date"
+                  >
+                    September 2003 – June 2009
+                  </div>
+                  <div
+                    class="place"
+                  >
+                    Warsaw
+                  </div>
+                </div>
+                <div
+                  class="col-6 activity-info"
+                >
+                  <div
+                    class="function"
+                  >
+                    Social Instructor
+                  </div>
+                  <div
+                    class="company"
+                  >
+                    Youth Palace
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-sm-4 col-xs-12"
+        >
+          <div
+            class="row"
+          >
+            <h3
+              class="section-head text-end"
+            >
+              SKILLS
+            </h3>
+          </div>
+          <div
+            class="row skill pb-1"
+          >
+            <div
+              class="col text-end ps-0"
+            >
+              <span
+                class="skill-name"
+              >
+                HTML / CSS / SCSS
+              </span>
+            </div>
+            <div
+              class="col-3 text-end ps-0"
+            >
+              <span
+                class="skill-score"
+              >
+                ★★★☆☆
+              </span>
+            </div>
+          </div>
+          <div
+            class="row skill pb-1"
+          >
+            <div
+              class="col text-end ps-0"
+            >
+              <span
+                class="skill-name"
+              >
+                Javascript / TypeScript
+              </span>
+            </div>
+            <div
+              class="col-3 text-end ps-0"
+            >
+              <span
+                class="skill-score"
+              >
+                ★★★☆☆
+              </span>
+            </div>
+          </div>
+          <div
+            class="row skill pb-1"
+          >
+            <div
+              class="col text-end ps-0"
+            >
+              <span
+                class="skill-name"
+              >
+                Git
+              </span>
+            </div>
+            <div
+              class="col-3 text-end ps-0"
+            >
+              <span
+                class="skill-score"
+              >
+                ★★★☆☆
+              </span>
+            </div>
+          </div>
+          <div
+            class="row skill pb-1"
+          >
+            <div
+              class="col text-end ps-0"
+            >
+              <span
+                class="skill-name"
+              >
+                React (redux / router)
+              </span>
+            </div>
+            <div
+              class="col-3 text-end ps-0"
+            >
+              <span
+                class="skill-score"
+              >
+                ★★★☆☆
+              </span>
+            </div>
+          </div>
+          <div
+            class="row skill pb-1"
+          >
+            <div
+              class="col text-end ps-0"
+            >
+              <span
+                class="skill-name"
+              >
+                VueJS (vuex / router)
+              </span>
+            </div>
+            <div
+              class="col-3 text-end ps-0"
+            >
+              <span
+                class="skill-score"
+              >
+                ★★☆☆☆
+              </span>
+            </div>
+          </div>
+          <div
+            class="row skill pb-1"
+          >
+            <div
+              class="col text-end ps-0"
+            >
+              <span
+                class="skill-name"
+              >
+                REST API / axios / fetch
+              </span>
+            </div>
+            <div
+              class="col-3 text-end ps-0"
+            >
+              <span
+                class="skill-score"
+              >
+                ★★★★☆
+              </span>
+            </div>
+          </div>
+          <div
+            class="row skill pb-1"
+          >
+            <div
+              class="col text-end ps-0"
+            >
+              <span
+                class="skill-name"
+              >
+                Testing (Jest / Cypress)
+              </span>
+            </div>
+            <div
+              class="col-3 text-end ps-0"
+            >
+              <span
+                class="skill-score"
+              >
+                ★★☆☆☆
+              </span>
+            </div>
+          </div>
+          <div
+            class="row skill pb-1"
+          >
+            <div
+              class="col text-end ps-0"
+            >
+              <span
+                class="skill-name"
+              >
+                Scrum / Kanban (Jira / Assembla)
+              </span>
+            </div>
+            <div
+              class="col-3 text-end ps-0"
+            >
+              <span
+                class="skill-score"
+              >
+                ★★☆☆☆
+              </span>
+            </div>
+          </div>
+          <div
+            class="row skill pb-1"
+          >
+            <div
+              class="col text-end ps-0"
+            >
+              <span
+                class="skill-name"
+              >
+                Linux (Fedora / Debian)
+              </span>
+            </div>
+            <div
+              class="col-3 text-end ps-0"
+            >
+              <span
+                class="skill-score"
+              >
+                ★★★★☆
+              </span>
+            </div>
+          </div>
+          <div
+            class="row skill pb-1"
+          >
+            <div
+              class="col text-end ps-0"
+            >
+              <span
+                class="skill-name"
+              >
+                Docker / Vagant
+              </span>
+            </div>
+            <div
+              class="col-3 text-end ps-0"
+            >
+              <span
+                class="skill-score"
+              >
+                ★★★☆☆
+              </span>
+            </div>
+          </div>
+          <div
+            class="row skill pb-1"
+          >
+            <div
+              class="col text-end ps-0"
+            >
+              <span
+                class="skill-name"
+              >
+                yarn / npm / parcel
+              </span>
+            </div>
+            <div
+              class="col-3 text-end ps-0"
+            >
+              <span
+                class="skill-score"
+              >
+                ★★★☆☆
+              </span>
+            </div>
+          </div>
+          <div
+            class="row skill pb-1"
+          >
+            <div
+              class="col text-end ps-0"
+            >
+              <span
+                class="skill-name"
+              >
+                Python / Bash (Scripting) 
+              </span>
+            </div>
+            <div
+              class="col-3 text-end ps-0"
+            >
+              <span
+                class="skill-score"
+              >
+                ★★☆☆☆
+              </span>
+            </div>
+          </div>
+          <div
+            class="row skill pb-1"
+          >
+            <div
+              class="col text-end ps-0"
+            >
+              <span
+                class="skill-name"
+              >
+                MySQL / PostreSQL
+              </span>
+            </div>
+            <div
+              class="col-3 text-end ps-0"
+            >
+              <span
+                class="skill-score"
+              >
+                ★★★☆☆
+              </span>
+            </div>
+          </div>
+          <div
+            class="row skill pb-1"
+          >
+            <div
+              class="col text-end ps-0"
+            >
+              <span
+                class="skill-name"
+              >
+                MongoDB / Redis
+              </span>
+            </div>
+            <div
+              class="col-3 text-end ps-0"
+            >
+              <span
+                class="skill-score"
+              >
+                ★★☆☆☆
+              </span>
+            </div>
+          </div>
+          <div
+            class="row skill pb-1"
+          >
+            <div
+              class="col text-end ps-0"
+            >
+              <span
+                class="skill-name"
+              >
+                babel / webpack / gulp
+              </span>
+            </div>
+            <div
+              class="col-3 text-end ps-0"
+            >
+              <span
+                class="skill-score"
+              >
+                ★★★★☆
+              </span>
+            </div>
+          </div>
+          <div
+            class="row skill pb-1"
+          >
+            <div
+              class="col text-end ps-0"
+            >
+              <span
+                class="skill-name"
+              >
+                lodash / ramda
+              </span>
+            </div>
+            <div
+              class="col-3 text-end ps-0"
+            >
+              <span
+                class="skill-score"
+              >
+                ★★★☆☆
+              </span>
+            </div>
+          </div>
+          <div
+            class="row skill pb-1"
+          >
+            <div
+              class="col text-end ps-0"
+            >
+              <span
+                class="skill-name"
+              >
+                Design patterns
+              </span>
+            </div>
+            <div
+              class="col-3 text-end ps-0"
+            >
+              <span
+                class="skill-score"
+              >
+                ★☆☆☆☆
+              </span>
+            </div>
+          </div>
+          <div
+            class="row skill pb-1"
+          >
+            <div
+              class="col text-end ps-0"
+            >
+              <span
+                class="skill-name"
+              >
+                Node JS / NestJS / express
+              </span>
+            </div>
+            <div
+              class="col-3 text-end ps-0"
+            >
+              <span
+                class="skill-score"
+              >
+                ★★☆☆☆
+              </span>
+            </div>
+          </div>
+          <div
+            class="row skill pb-1"
+          >
+            <div
+              class="col text-end ps-0"
+            >
+              <span
+                class="skill-name"
+              >
+                Bootstrap / Material-UI
+              </span>
+            </div>
+            <div
+              class="col-3 text-end ps-0"
+            >
+              <span
+                class="skill-score"
+              >
+                ★★★★☆
+              </span>
+            </div>
+          </div>
+          <div
+            class="row skill pb-1"
+          >
+            <div
+              class="col text-end ps-0"
+            >
+              <span
+                class="skill-name"
+              >
+                Elasticsearch
+              </span>
+            </div>
+            <div
+              class="col-3 text-end ps-0"
+            >
+              <span
+                class="skill-score"
+              >
+                ★★☆☆☆
+              </span>
+            </div>
+          </div>
+          <div
+            class="row skill pb-1"
+          >
+            <div
+              class="col text-end ps-0"
+            >
+              <span
+                class="skill-name"
+              >
+                React Native / Expo
+              </span>
+            </div>
+            <div
+              class="col-3 text-end ps-0"
+            >
+              <span
+                class="skill-score"
+              >
+                ★☆☆☆☆
+              </span>
+            </div>
+          </div>
+          <div
+            class="row skill pb-1"
+          >
+            <div
+              class="col text-end ps-0"
+            >
+              <span
+                class="skill-name"
+              >
+                Magento 2 - Frontend (KnockoutJS / jQuery)
+              </span>
+            </div>
+            <div
+              class="col-3 text-end ps-0"
+            >
+              <span
+                class="skill-score"
+              >
+                ★★☆☆☆
+              </span>
+            </div>
+          </div>
+          <div
+            class="row"
+          >
+            <h3
+              class="section-head pt-2 text-end"
+            >
+              LANGUAGES
+            </h3>
+          </div>
+          <div
+            class="row skill pb-1"
+          >
+            <div
+              class="col text-end ps-0"
+            >
+              <span
+                class="skill-name"
+              >
+                English
+              </span>
+            </div>
+            <div
+              class="col-3 text-end ps-0"
+            >
+              <span
+                class="skill-score"
+              >
+                ★★★☆☆☆
+              </span>
+            </div>
+          </div>
+          <div
+            class="row skill pb-1"
+          >
+            <div
+              class="col text-end ps-0"
+            >
+              <span
+                class="skill-name"
+              >
+                Polish
+              </span>
+            </div>
+            <div
+              class="col-3 text-end ps-0"
+            >
+              <span
+                class="skill-score"
+              >
+                ★★★★★★
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="row section"
+        style="page-break-after: always;"
+      >
+        <h3
+          class="section-head"
+        >
+          COURSES
+        </h3>
+        <div
+          class="col section-content"
+        >
+          <div
+            class="row course"
+          >
+            <div
+              class="col-4 course-info"
+            >
+              <div
+                class="date"
+              >
+                September 2016
+              </div>
+            </div>
+            <div
+              class="col course-info"
+            >
+              <div
+                class="function"
+              >
+                JavaScript
+              </div>
+              <div
+                class="company"
+              >
+                ROOTSHER
+              </div>
+            </div>
+          </div>
+          <div
+            class="row course"
+          >
+            <div
+              class="col-4 course-info"
+            >
+              <div
+                class="date"
+              >
+                February 2020
+              </div>
+            </div>
+            <div
+              class="col course-info"
+            >
+              <div
+                class="function"
+              >
+                DevMeeting Blockchain
+              </div>
+              <div
+                class="company"
+              >
+                360codelab by Daniel Kmak
+              </div>
+            </div>
+          </div>
+          <div
+            class="row course"
+          >
+            <div
+              class="col-4 course-info"
+            >
+              <div
+                class="date"
+              >
+                April 2020
+              </div>
+            </div>
+            <div
+              class="col course-info"
+            >
+              <div
+                class="function"
+              >
+                React Native Workshop
+              </div>
+              <div
+                class="company"
+              >
+                DevMeetings by Sebastian Mysakowski
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="row section fixed"
+      >
+        <h3
+          class="section-head"
+        />
+        <div
+          class="col px-1"
+          style="color: rgba(0, 0, 0, 0.4);"
+        >
+          <h6
+            class="rodo"
+          >
+            Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji (zgodnie z ustawą z dnia 10 maja 2018 roku o ochronie danych osobowych (Dz. Ustaw z 2018, poz. 1000) oraz zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (RODO).
+          </h6>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
