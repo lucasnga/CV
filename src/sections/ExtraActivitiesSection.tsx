@@ -3,17 +3,17 @@ import { ExtraActivity } from '../components/ExtraActitity/ExtraActivity'
 
 const extraActivities = [
   {
-    date: 'September 2003 – June 2009',
-    func: 'Social Instructor',
-    company: 'Youth Palace',
-    place: 'Warsaw'
+    date: 'Wrzesień 2003 – Czerwiec 2009',
+    func: 'Instruktor Społeczny',
+    company: 'Pałac Młodzieży',
+    place: 'Warszawa'
   }
 ]
 
 export const ExtraActivitiesSection = (): JSX.Element => {
   return (
     <>
-      <h3 className={'section-head'}>EXTRA-CURRICULAR ACTIVITIES</h3>
+      <h3 className={'section-head'}>DZIAŁALNOŚĆ DODATKOWA</h3>
       <div className="col section-content">
         {extraActivities.map(({ date, place, func, company }) => (
           <ExtraActivity

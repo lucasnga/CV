@@ -6,7 +6,7 @@ export const HeadSection = (): JSX.Element => {
       <div className="col-sm-9 col-xs-12 header">
         <div className="row nameRole">
           <div className="col-7 name">
-            <h1> Łukasz Anuszkiewicz</h1>
+            <h1>Łukasz Anuszkiewicz</h1>
           </div>
           <div className="col-5 text-center possession">
             <h4 className={'accent'}>Frontend Developer</h4>
@@ -16,10 +16,10 @@ export const HeadSection = (): JSX.Element => {
           <div className="col-sm-6 col-xs-12">
             <div className="row info-row">
               <div className="col-4">
-                <span className={'info-row-head'}>Living in</span>
+                <span className={'info-row-head'}>Mieszkam w</span>
               </div>
               <div className="col-6">
-                <div className={'info-row-value'}>Warsaw</div>
+                <div className={'info-row-value'}>Warszawie</div>
               </div>
             </div>
             <div className="row info-row">
@@ -34,7 +34,7 @@ export const HeadSection = (): JSX.Element => {
             </div>
             <div className="row info-row">
               <div className="col-4">
-                <span className={'info-row-head'}>Links</span>
+                <span className={'info-row-head'}>Linki</span>
               </div>
               <div className="col-6">
                 <span className={'info-row-value'}>
@@ -52,18 +52,18 @@ export const HeadSection = (): JSX.Element => {
           <div className="col-sm-6 col-xs-12">
             <div className="row info-row">
               <div className="col-4">
-                <span className={'info-row-head'}>Phone</span>
+                <span className={'info-row-head'}>Telefon</span>
               </div>
               <div className="col-6">
-                <span className={'info-row-value'}> 509-232-926</span>
+                <span className={'info-row-value'}>509-232-926</span>
               </div>
             </div>
             <div className="row info-row">
               <div className="col-4">
-                <span className={'info-row-head'}>Date / Place of birth</span>
+                <span className={'info-row-head'}>Data/Miejsce urodzenia</span>
               </div>
               <div className="col-6">
-                <span className={'info-row-value'}>1984-09-26 Warsaw</span>
+                <span className={'info-row-value'}>1984-09-26 Warszawa</span>
               </div>
             </div>
           </div>

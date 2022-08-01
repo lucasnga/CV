@@ -12,7 +12,7 @@ const education = [
 export const EducationSection = (): JSX.Element => {
   return (
     <>
-      <h3 className={'section-head'}>EDUCATION</h3>
+      <h3 className={'section-head'}>EDUKACJA</h3>
       <div className="col section-content">
         <div className="row education">
           <div className="col-4 education-info">

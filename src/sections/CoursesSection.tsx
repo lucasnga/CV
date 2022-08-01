@@ -2,14 +2,14 @@ import { Course } from '../components/Course/Course'
 import React from 'react'
 
 const courses = [
-  { date: 'September 2016', func: 'JavaScript', company: 'ROOTSHER' },
+  { date: 'Wrzesień 2016', func: 'JavaScript', company: 'ROOTSHER' },
   {
-    date: 'February 2020',
+    date: 'Luty 2020',
     func: 'DevMeeting Blockchain',
     company: '360codelab by Daniel Kmak'
   },
   {
-    date: 'April 2020',
+    date: 'Kwiecień 2020',
     func: 'React Native Workshop',
     company: 'DevMeetings by Sebastian Mysakowski'
   }
@@ -18,7 +18,7 @@ const courses = [
 export const CoursesSection = (): JSX.Element => {
   return (
     <>
-      <h3 className={'section-head'}>COURSES</h3>
+      <h3 className={'section-head'}>KURSY</h3>
       <div className="col section-content">
         {courses.map((course) => (
           <Course

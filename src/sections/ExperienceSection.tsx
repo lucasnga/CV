@@ -3,10 +3,10 @@ import { Experience } from '../components/Experience/Experience'
 
 const expiriences = [
   {
-    date: 'Feb 2019 – Apr 2020',
+    date: 'Luty 2019 – Kwiecień 2020',
     func: 'Junior Frontend Developer',
     company: 'ORBA Sp.z o.o.',
-    place: 'Warsaw',
+    place: 'Warszawa',
     details: [
       'Modyfikacja widoków sklepu internetowego Magento, VueStoreFront',
       'Praca z wieloma frameworkami: React, Vue oraz KnockoutJS',
@@ -15,37 +15,37 @@ const expiriences = [
     ]
   },
   {
-    date: 'Oct 2017 – Dec 2017',
+    date: 'Październik 2017 – Grudzień 2017',
     func: 'Frontend developer',
     company: 'Perspektywy Press',
-    place: 'Warsaw',
+    place: 'Warszawa',
     details: [
       'Opracowywanie widoków (HTML + SCSS + PS)',
       'Praca z systemem CMS Joomla'
     ]
   },
   {
-    date: 'Sep 2016 – Sep 2017',
+    date: 'Wrzesień 2016 – Wrzrsień 2017',
     func: 'Junior Frontend Developer',
     company: 'ROOTSHER',
-    place: 'Warsaw',
+    place: 'Warszawa',
     details: [
       'opracowywanie widoków oraz tworzenie landing pages (HTML, CSS, React)',
       'Praca z systemem CMS Wordpress, frameworkiem NextJS, React'
     ]
   },
   {
-    date: 'Dec 2008 – Dec 2009',
+    date: 'Grudzień 2008 – Grudzień 2009',
     func: 'Helpdesk',
     company: 'eFuzja',
-    place: 'Warsaw',
+    place: 'Warszawa',
     details: [
       'Konf. oprogramowania, sprzętu, urządzeń sieciowych dla klientów',
       'Konfiguracja sieciowych urządzeń aktywnych, konserwacja oraz układanie okablowania sieciowego'
     ]
   },
   {
-    date: 'Apr 2005 – Mar 2012',
+    date: 'Kwiecień 2005 – Marzec 2012',
     func: 'Administrator sieci',
     company: 'Mlekomat Sp.Jawna',
     place: 'Karczew',
@@ -60,7 +60,7 @@ const expiriences = [
 export const WorkExperienceSection = (): JSX.Element => {
   return (
     <>
-      <h3 className={'section-head'}>WORK EXPERIENCE</h3>
+      <h3 className={'section-head'}>DOŚWIADCZENIE ZAWODOWE</h3>
       <div className="col section-content">
         {expiriences.map(({ date, place, func, company, details }) => (
           <Experience
