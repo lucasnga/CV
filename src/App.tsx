@@ -39,6 +39,12 @@ function App(): ReactElement {
       </div>
       <div className="row section fixed">
         <RODO />
+        <h6 className="px-1 m-0">
+          Aktualna wersja:{' '}
+          <a href="https://lucasnga.github.io/CV/">
+            https://lucasnga.github.io/CV/
+          </a>
+        </h6>
       </div>
     </div>
   )
