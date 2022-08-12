@@ -12,39 +12,42 @@ import { LanguagesSection } from './sections/LanguagesSection'
 import { EducationSection } from './sections/EducationSection'
 import { HeadSection } from './sections/HeadSection'
 import { RODO } from './sections/RODO'
+import { HobbiesSection } from './sections/HobbiesSection'
+import { InfoBox } from './sections/InfoBox'
 
 function App(): ReactElement {
   return (
     <div className="App">
-      <div className="row headSection">
+      <div className="row section-head">
         <HeadSection />
+      </div>
+      <div className="row section">
+        <div className="col-sm-8 col-xs-12">
+          <WorkExperienceSection />
+        </div>
+        <div className="col-sm-4 col-xs-12 pt-5">
+          <div className="pt-5"></div>
+          <InfoBox />
+          <SkillsSection />
+          <div className="section">
+            <LanguagesSection />
+          </div>
+          <div className="row section">
+            <HobbiesSection />
+          </div>
+        </div>
       </div>
       <div className="row section">
         <EducationSection />
       </div>
-      <div className="row section justify-content-between">
-        <div className="col-sm-8 col-xs-12">
-          <WorkExperienceSection />
-          <div className="row section">
-            <ExtraActivitiesSection />
-          </div>
-        </div>
-        <div className="col-sm-4 col-xs-12">
-          <SkillsSection />
-          <LanguagesSection />
-        </div>
+      <div className="row section">
+        <ExtraActivitiesSection />
       </div>
-      <div className="row section" style={{ pageBreakAfter: 'always' }}>
+      <div className="row section">
         <CoursesSection />
       </div>
       <div className="row section fixed">
         <RODO />
-        <h6 className="px-1 m-0">
-          Aktualna wersja:{' '}
-          <a href="https://lucasnga.github.io/CV/">
-            https://lucasnga.github.io/CV/
-          </a>
-        </h6>
       </div>
     </div>
   )

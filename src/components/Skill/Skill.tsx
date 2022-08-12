@@ -15,7 +15,7 @@ export function Skill({
   range?: number
 }): JSX.Element {
   return (
-    <div className={'row skill pb-1'}>
+    <div className={'row skill pb-1 text-end'}>
       <div className={'col text-end ps-0'}>
         <span className={'skill-name'}>{name}</span>
       </div>

@@ -13,7 +13,7 @@ export function ExtraActivity({
 }): JSX.Element {
   return (
     <div className="row activity">
-      <div className="col-6 activity-info">
+      <div className="col-4 activity-info">
         <div className={'date'}>{date}</div>
         <div className={'place'}>{place}</div>
       </div>

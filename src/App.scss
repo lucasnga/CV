@@ -22,6 +22,7 @@
       left: 50%;
       width: 95%;
       transform: translate(-50%, 0);
+      background-color: white;
     }
   }
 }
@@ -48,28 +49,16 @@ html {
       .nameRole {
         .name {
           h1 {
-            font-size: 2rem;
-            font-weight: bold;
           }
         }
         .possession {
-          align-self: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 0.5rem;
           h4 {
             font-size: 1.3rem;
             margin: 0;
-          }
-        }
-      }
-      .infoBox {
-        padding: 1em 0;
-        .info-row {
-          .info-row-head {
-            @extend .accent;
-            font-size: 0.77rem;
-            text-transform: uppercase;
-          }
-          .info-row-value {
-            @extend .values;
           }
         }
       }
@@ -121,11 +110,7 @@ html {
       @extend .values;
       @extend .accent;
     }
-    .function {
-      font-size: 1.2rem;
-      font-style: italic;
-      font-weight: 900;
-    }
+      @extend .function;
 
     .company {
       color: #666;
@@ -147,8 +132,25 @@ html {
   }
 }
 
+.infoBox {
+  .info-row {
+    .info-row-head {
+      @extend .function;
+      text-transform: uppercase;
+      text-align: right;
+      padding-top: 0.5rem;
+    }
+    .info-row-value {
+      @extend .values;
+      text-align: right;
+    }
+  }
+}
+
+
 .education {
   .education-info {
+    padding-bottom: 0.8rem;
     .date {
       @extend .values;
     }
@@ -159,6 +161,7 @@ html {
     }
 
     .company {
+      @extend .function;
     }
 
     .function {
@@ -226,6 +229,13 @@ html {
   line-height: 1;
   font-size: 0.85rem;
 }
+
+.function {
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 900;
+}
+
 
 .accent,
 a {
