@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 
 const signs = {
   solid: '★',
@@ -14,10 +15,12 @@ export function Skill({
   value: number
   range?: number
 }): JSX.Element {
+  const { t } = useTranslation()
+
   return (
     <div className={'row skill pb-1 text-end'}>
       <div className={'col text-end ps-0'}>
-        <span className={'skill-name'}>{name}</span>
+        <span className={'skill-name'}>{t(name)}</span>
       </div>
       <div className={'col-3 text-end ps-0'}>
         <span className={'skill-score'}>

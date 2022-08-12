@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import { Experience } from '../components/Experience/Experience'
 
 const expiriences = [
@@ -65,7 +66,7 @@ const expiriences = [
     ]
   },
   {
-    date: 'Kwiecie 2012 - Sierpień 2016',
+    date: 'Kwiecień 2012 - Sierpień 2016',
     func: 'Freelancer (Fullstack)',
     details: [
       'Tworzenie sktyptów w Python / Bash do interakcji z hurtowniami dla sklepów internetowych',
@@ -101,13 +102,14 @@ const expiriences = [
 ]
 
 export const WorkExperienceSection = (): JSX.Element => {
+  const { t } = useTranslation()
   return (
     <>
-      <h3 className={'section-head py-3'}>DOŚWIADCZENIE ZAWODOWE</h3>
+      <h3 className={'section-head py-3'}>{t('DOŚWIADCZENIE ZAWODOWE')}</h3>
       <div className="col section-content">
-        {expiriences.map(({ date, place, func, company, details }) => (
+        {expiriences.map(({ date, place, func, company, details }, index) => (
           <Experience
-            key={company}
+            key={index}
             date={date}
             place={place}
             func={func}

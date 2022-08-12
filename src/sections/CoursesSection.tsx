@@ -1,5 +1,6 @@
 import { Course } from '../components/Course/Course'
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 
 const courses = [
   { date: 'Wrzesień 2016', func: 'JavaScript, React', company: 'ROOTSHER' },
@@ -21,9 +22,10 @@ const courses = [
 ]
 
 export const CoursesSection = (): JSX.Element => {
+  const { t } = useTranslation()
   return (
     <>
-      <h3 className={'section-head'}>KURSY</h3>
+      <h3 className={'section-head'}>{t('KURSY')}</h3>
       <div className="col section-content">
         {courses
           .slice(0)
