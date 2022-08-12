@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import { Skill } from '../components/Skill/Skill'
 
 const skills = [
@@ -31,10 +32,13 @@ const skills = [
 ]
 
 export const SkillsSection = (): JSX.Element => {
+  const { t } = useTranslation()
   return (
     <>
       <div className="section">
-        <h3 className={'section-head text-end pt-3 pb-2 m-0'}>UMIEJĘTNOŚCI</h3>
+        <h3 className={'section-head text-end pt-3 pb-2 m-0'}>
+          {t('UMIEJĘTNOŚCI')}
+        </h3>
         {skills.map((skill) => (
           <Skill key={skill.name} name={skill.name} value={skill.value} />
         ))}

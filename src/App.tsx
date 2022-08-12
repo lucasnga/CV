@@ -14,10 +14,28 @@ import { HeadSection } from './sections/HeadSection'
 import { RODO } from './sections/RODO'
 import { HobbiesSection } from './sections/HobbiesSection'
 import { InfoBox } from './sections/InfoBox'
+import { useTranslation } from 'react-i18next'
 
 function App(): ReactElement {
+  const { i18n } = useTranslation()
+
+  const changeLanguageHandler = async (): Promise<void> => {
+    if (i18n.language == 'en') {
+      await i18n.changeLanguage('pl')
+    } else {
+      await i18n.changeLanguage('en')
+    }
+  }
+
   return (
     <div className="App">
+      <button
+        className="btn btn-success"
+        onClick={(): Promise<void> => changeLanguageHandler()}
+      >
+        {i18n.language == 'en' ? 'pl' : 'en'}
+      </button>
+
       <div className="row section-head">
         <HeadSection />
       </div>

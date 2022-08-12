@@ -15,6 +15,11 @@
     -webkit-print-color-adjust: exact !important; /* Chrome, Safari */
   }
   body {
+    .App {
+      button {
+        display: none;
+      }
+    }
     margin: 0 !important;
     .fixed {
       position: fixed;

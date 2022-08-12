@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 
 const education = [
   {
@@ -17,20 +18,21 @@ const education = [
 ]
 
 export const EducationSection = (): JSX.Element => {
+  const { t } = useTranslation()
   return (
     <>
-      <h3 className={'section-head'}>EDUKACJA</h3>
+      <h3 className={'section-head'}>{t('EDUKACJA')}</h3>
       <div className="col section-content">
         {education.map((school) => {
           return (
-            <div className="row education">
+            <div className="row education" key={t(school.date)}>
               <div className="col-4 education-info">
-                <div className={'date'}>{school?.date}</div>
-                <div className={'place'}>{school?.place}</div>
+                <div className={'date'}>{t(school?.date)}</div>
+                <div className={'place'}>{t(school?.place)}</div>
               </div>
               <div className="col education-info">
-                <div className={'company'}>{school?.company}</div>
-                <div className={'func'}>{school?.func}</div>
+                <div className={'company'}>{t(school?.company)}</div>
+                <div className={'func'}>{t(school?.func)}</div>
               </div>
             </div>
           )

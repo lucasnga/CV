@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import { ExtraActivity } from '../components/ExtraActitity/ExtraActivity'
 
 const extraActivities = [
@@ -11,9 +12,10 @@ const extraActivities = [
 ]
 
 export const ExtraActivitiesSection = (): JSX.Element => {
+  const { t } = useTranslation()
   return (
     <>
-      <h3 className={'section-head'}>DZIAŁALNOŚĆ DODATKOWA</h3>
+      <h3 className={'section-head'}>{t('DZIAŁALNOŚĆ DODATKOWA')}</h3>
       <div className="col section-content">
         {extraActivities.map(({ date, place, func, company }) => (
           <ExtraActivity
