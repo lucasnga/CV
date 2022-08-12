@@ -4,8 +4,8 @@ import { ExtraActivity } from '../components/ExtraActitity/ExtraActivity'
 const extraActivities = [
   {
     date: 'Wrzesień 2003 – Czerwiec 2009',
-    func: 'Instruktor Społeczny',
-    company: 'Pałac Młodzieży',
+    func: 'Instruktor Społeczny - Linux, Web Development',
+    company: 'Pałac Kultury i Nauki (Pałac Młodzieży)',
     place: 'Warszawa'
   }
 ]
