@@ -33,7 +33,7 @@ function App(): ReactElement {
         className="btn btn-success"
         onClick={(): Promise<void> => changeLanguageHandler()}
       >
-        {i18n.language == 'en' ? 'pl' : 'en'}
+        {i18n.language == 'en' ? 'to pl' : 'na ang'}
       </button>
 
       <div className="row section-head">
